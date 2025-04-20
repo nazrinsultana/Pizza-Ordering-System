@@ -60,9 +60,6 @@ mkdir bin 2>nul
 
 # Compile all Java sources
 javac -cp "lib/*" -d bin src\pizzashop\*.java
-
-# Run project
-java  -cp "bin;lib/*" pizzashop.PizzaShop
 ```
 
 ## Running the Application
